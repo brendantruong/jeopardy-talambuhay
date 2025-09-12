@@ -12,20 +12,20 @@ const pastQuestions: Question[] = sortQuestions([
     {
         points: 200,
         question:
-            'What is this logo?',
-        imgSrc: "Shake_Shack.png",
-        answer: 'Shake Shack',
+            '',
+        imgSrc: "",
+        answer: '',
     },
     {
         points: 300,
         question:
-            'What Ivy League school has the highest Native American enrollment (a whoppping 1%)?',
-        answer: 'Dartmouth',
+            'Between which two countries does the Matterhorn lie between',
+        answer: 'Italy and Switzerland',
     },
     {
         points: 400,
-        question: 'Who wrote the Critique of Pure Reason?',
-        answer: 'Immanuel Kant',
+        question: '',
+        answer: '',
     }
 ]);
 
@@ -34,16 +34,15 @@ const presentQuestions: Question[] =
         {
             points: 200,
             question:
-                'What kind of rock is this?',
-            imgSrc: 'https://madera.objects.liquidweb.services/photos/16842-half-dome-closeup-from-glacier-point-steve-montalto-hmi-Rectangle-600x400.jpg',
-            answer: 'Granite',
+                'What Logo is this',
+            imgSrc: 'Shake_Shack.png',
+            answer: 'Shake Shack',
         },
         {
             points: 100,
             question:
-                'What is this Cafe called?',
-            imgSrc: 'https://lh3.googleusercontent.com/p/AF1QipNsmB0ugJeJxYVrBKpRkNkyiEa6cKLamFZ4r0M=s1360-w1360-h1020',
-            answer: 'Chaotic Good',
+                'Which country has the most amount of gold medals in the Mens Olympic Rowing Category',
+            answer: 'The United States',
         },
         {
             points: 300,
