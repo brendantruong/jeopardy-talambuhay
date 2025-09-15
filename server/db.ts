@@ -12,51 +12,56 @@ const pastQuestions: Question[] = sortQuestions([
     {
         points: 200,
         question:
-            '',
-        imgSrc: "",
-        answer: '',
+            'Which country has the most world cup wins?',
+        answer: 'Brazil',
     },
     {
         points: 300,
         question:
-            'Between which two countries does the Matterhorn lie between',
-        answer: 'Italy and Switzerland',
+            'Which part of the sailboat provides the necessary height and structure to hold and support the sails',
+        answer: 'mast',
     },
     {
         points: 400,
-        question: '',
-        answer: '',
+        question: 'Which bread of dogs originate from the island of Malta',
+        answer: 'Maltese',
     }
 ]);
 
 const presentQuestions: Question[] =
     sortQuestions([
         {
-            points: 200,
+            points: 100,
             question:
                 'What Logo is this',
             imgSrc: 'Shake_Shack.png',
             answer: 'Shake Shack',
         },
         {
-            points: 100,
+            points: 400,
             question:
                 'Which country has the most amount of gold medals in the Mens Olympic Rowing Category',
             answer: 'The United States',
         },
         {
-            points: 300,
-            question: 'What programming language is the below code?',
-            imgSrc: '/programming_language.png',
-            answer: 'Javascript',
+            points: 200,
+            question: 'What animal is this?',
+            imgSrc: '/https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCapybara&psig=AOvVaw3CvrM7-TF9hCq0OYqAs_PX&ust=1758044786239000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCMDq_vmr248DFQAAAAAdAAAAABAL',
+            answer: 'Capybara',
         },
         {
-            points: 400,
+            points: 300,
             question:
-                'Who painted this?',
+                'What flag is this?',
             imgSrc:
-                "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjb1tCOwOdOeYcp5iflCvvW95qCqpmNUo-TMIt3ndxzsxzmgmH18iClIIQLPO48ojPg5Rts2AUm9rZBeVPcjnjrjGaLSzCwbipQotY4EhOk3tUoHJjJyZjTqfY5s9MZ5eSkGrrqmom4JXUdHEqE-Ts8E9i-SuFf9xEukJcFBs5NuOhe6ANdODMFYzyV_Q/s16000/Unfinished.jpg",
-            answer: 'Keith Haring',
+                "Flag_of_Chile.svg.png",
+            answer: 'Chile',
+        },
+        {
+            points: 500,
+            question:
+                'Between which two countries does The Matterhorn lie between?',
+            answer: 'Italy and Switzerland'
         }
     ]);
 const futureQuestions: Question[] = sortQuestions([
@@ -73,15 +78,15 @@ const futureQuestions: Question[] = sortQuestions([
 
 const categories = [
     {
-        title: 'My Past',
+        title: 'Brendans Past',
         questions: pastQuestions
     },
     {
-        title: 'My Present',
+        title: 'Brendans Present',
         questions: presentQuestions
     },
     {
-        title: 'My Future',
+        title: 'Brendans Future',
         questions: futureQuestions
     }
 ];
