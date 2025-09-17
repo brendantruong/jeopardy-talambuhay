@@ -12,26 +12,23 @@ const pastQuestions: Question[] = sortQuestions([
     {
         points: 200,
         question:
-<<<<<<< HEAD
             'Which Board Games are these characters from?',
-            imgSrc: '//www.google.com/url?sa=i&url=https%3A%2F%2Fagreeordie.com%2Fcoup-review-howto-variants%2F&psig=AOvVaw0xwa_mGOUk4OPu8RcPIzT7&ust=1758217389892000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCOD-of-u4I8DFQAAAAAdAAAAABAE',
+            imgSrc: 'https://agreeordie.com/wp-content/uploads/2016/03/coup-hero.jpg',
         answer: 'Coup',
-=======
-            'Which country has the most world cup wins?',
-        answer: 'Brazil',
->>>>>>> 74610e962b3be7089ec0911644f0186485343608
     },
     {
-        points: 300,
-        question:
-            'Which part of the sailboat provides the necessary height and structure to hold and support the sails',
-        answer: 'mast',
-    },
+            points: 300,
+            question:
+                'Between which two countries does The Matterhorn lie between?',
+            answer: 'Italy and Switzerland'
+        },
+
     {
         points: 400,
         question: 'Which bread of dogs originate from the island of Malta',
         answer: 'Maltese',
-    }
+    },
+   
     
 ]);
 
@@ -45,53 +42,30 @@ const presentQuestions: Question[] =
             answer: 'Shake Shack',
         },
         {
-            points: 400,
+            points: 500,
             question:
                 'Which country has the most amount of gold medals in the Mens Olympic Rowing Category',
             answer: 'The United States',
         },
         {
-<<<<<<< HEAD
-            points: 300,
+            points: 200,
             question: 'What flag is this?',
             imgSrc: '/Flag_of_Chile.svg.png',
             answer: 'Chile',
         },
-        {
-            points: 200,
+          {
+            points: 400,
             question:
-                'What NBA team logo is this?',
-            imgSrc:
-                "https://upload.wikimedia.org/wikipedia/commons/4/44/Brooklyn_Nets_newlogo.svg",
-            answer: 'Brooklyn Nets',
-=======
-            points: 200,
+                'What company does the watch type Vivoactive 5 belong to',
+            answer: 'Garmin',
+        },
+        {
+    
+            points: 300,
             question: 'What animal is this?',
-            imgSrc: '/https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCapybara&psig=AOvVaw3CvrM7-TF9hCq0OYqAs_PX&ust=1758044786239000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCMDq_vmr248DFQAAAAAdAAAAABAL',
+            imgSrc: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Hydrochoeris_hydrochaeris_in_Brazil_in_Petr%C3%B3polis%2C_Rio_de_Janeiro%2C_Brazil_09.jpg/500px-Hydrochoeris_hydrochaeris_in_Brazil_in_Petr%C3%B3polis%2C_Rio_de_Janeiro%2C_Brazil_09.jpg',
             answer: 'Capybara',
         },
-        {
-            points: 300,
-            question:
-                'What flag is this?',
-            imgSrc:
-                "Flag_of_Chile.svg.png",
-            answer: 'Chile',
->>>>>>> 74610e962b3be7089ec0911644f0186485343608
-        },
-        {
-            points: 500,
-            question:
-<<<<<<< HEAD
-            'What game are these characters from?',
-            imgSrc: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fagreeordie.com%2Fcoup-review-howto-variants%2F&psig=AOvVaw0e2FMjWNfnHIqBuhKKgdn4&ust=1757888683533000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCJj2-bPm1o8DFQAAAAAdAAAAABAE",
-            answer: 'Coup'
-
-=======
-                'Between which two countries does The Matterhorn lie between?',
-            answer: 'Italy and Switzerland'
->>>>>>> 74610e962b3be7089ec0911644f0186485343608
-        }
     ]);
 const futureQuestions: Question[] = sortQuestions([
     {
