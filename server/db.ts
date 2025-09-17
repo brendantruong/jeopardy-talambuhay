@@ -12,9 +12,9 @@ const pastQuestions: Question[] = sortQuestions([
     {
         points: 200,
         question:
-            '',
-        imgSrc: "",
-        answer: '',
+            'Which Board Games are these characters from?',
+            imgSrc: '//www.google.com/url?sa=i&url=https%3A%2F%2Fagreeordie.com%2Fcoup-review-howto-variants%2F&psig=AOvVaw0xwa_mGOUk4OPu8RcPIzT7&ust=1758217389892000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCOD-of-u4I8DFQAAAAAdAAAAABAE',
+        answer: 'Coup',
     },
     {
         points: 300,
@@ -27,61 +27,78 @@ const pastQuestions: Question[] = sortQuestions([
         question: '',
         answer: '',
     }
+    
 ]);
 
 const presentQuestions: Question[] =
     sortQuestions([
         {
-            points: 200,
+            points: 100,
             question:
                 'What Logo is this',
             imgSrc: 'Shake_Shack.png',
             answer: 'Shake Shack',
         },
         {
-            points: 100,
+            points: 400,
             question:
                 'Which country has the most amount of gold medals in the Mens Olympic Rowing Category',
             answer: 'The United States',
         },
         {
             points: 300,
-            question: 'What programming language is the below code?',
-            imgSrc: '/programming_language.png',
-            answer: 'Javascript',
+            question: 'What flag is this?',
+            imgSrc: '/Flag_of_Chile.svg.png',
+            answer: 'Chile',
         },
         {
-            points: 400,
+            points: 200,
             question:
-                'Who painted this?',
+                'What NBA team logo is this?',
             imgSrc:
-                "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjb1tCOwOdOeYcp5iflCvvW95qCqpmNUo-TMIt3ndxzsxzmgmH18iClIIQLPO48ojPg5Rts2AUm9rZBeVPcjnjrjGaLSzCwbipQotY4EhOk3tUoHJjJyZjTqfY5s9MZ5eSkGrrqmom4JXUdHEqE-Ts8E9i-SuFf9xEukJcFBs5NuOhe6ANdODMFYzyV_Q/s16000/Unfinished.jpg",
-            answer: 'Keith Haring',
+                "https://upload.wikimedia.org/wikipedia/commons/4/44/Brooklyn_Nets_newlogo.svg",
+            answer: 'Brooklyn Nets',
+        },
+        {
+            points: 500,
+            question:
+            'What game are these characters from?',
+            imgSrc: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fagreeordie.com%2Fcoup-review-howto-variants%2F&psig=AOvVaw0e2FMjWNfnHIqBuhKKgdn4&ust=1757888683533000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCJj2-bPm1o8DFQAAAAAdAAAAABAE",
+            answer: 'Coup'
+
         }
     ]);
 const futureQuestions: Question[] = sortQuestions([
     {
         points: 100,
         question:
-            'This country is home to the Dolomites, which are a mountain range that has historical \'via ferratas\', iron cables and rungs, to aid traversing the peaks?',
-        imgSrc:
-            "https://laguidalpina.it/cdn/shop/products/ferrata-marmolada-cresta-ovest-Cristiano-Gregnanin-Guida-Alpina-Certificata-Dolomiti-5.jpg?v=1738870778",
-        answer: 'Italy',
+            'What sport is the HM Club PickleAid about?',
+        answer: 'Pickleball',
+    },
+    {
+points: 200,
+question: 'What is the name of the thinnest iPhone?',
+answer: 'iPhone Air'
+    },
+    {
+points: 300,
+question: 'Which rowing club was named Best Rowing Club of the year in America this past year',
+answer: 'Row America Rye'
     }
 ]);
 
 
 const categories = [
     {
-        title: 'My Past',
+        title: 'Brendans Past',
         questions: pastQuestions
     },
     {
-        title: 'My Present',
+        title: 'Brendans Present',
         questions: presentQuestions
     },
     {
-        title: 'My Future',
+        title: 'Brendans Future',
         questions: futureQuestions
     }
 ];
